@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+.primary {
+  color: #f19509;
+}
+
+.primaryDark {
+  color: #e86f00;
+}
+
+.lightOrange {
+  color: #f1dabf;
+}
+.darkGray {
+  color: #1a1f25;
+}
+.lightGray {
+  color: #272c35;
+}
+.img-shadow {
+  filter: drop-shadow(40px 50px 25px #0f1115);
+}
+.img-shadow2 {
+  filter: drop-shadow(10px 30px 15px #3030307a);
+}
