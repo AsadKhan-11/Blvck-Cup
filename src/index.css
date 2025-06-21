@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.container {
+  padding: 2rem;
+}
+
 .primary {
   color: #f19509;
 }
