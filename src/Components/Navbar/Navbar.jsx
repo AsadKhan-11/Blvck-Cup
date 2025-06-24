@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
-const Navbar = () => {
+const Navbar = ({ sidebar, setSidebar }) => {
   return (
     <nav className="absolute top-0 left-0 w-full pt-5 text-white z-20">
       <div className="container">
@@ -29,7 +29,10 @@ const Navbar = () => {
               stiffness: 100,
             }}
           >
-            <GiHamburgerMenu className="text-3xl cursor-pointer" />
+            <GiHamburgerMenu
+              className="text-3xl cursor-pointer"
+              onClick={() => setSidebar(!sidebar)}
+            />
           </motion.div>
         </div>
       </div>
