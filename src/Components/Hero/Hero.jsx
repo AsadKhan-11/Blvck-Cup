@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <main style={bgImage} className="">
-      <section className="relative min-h-[500px] w-full ">
+      <section className="relative min-h-[750px] w-full ">
         <div className="container">
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
           {/* Hero section */}
@@ -44,7 +44,7 @@ const Hero = () => {
                     doloribus optio ut, voluptatum vel explicabo exercitationem
                   </p>
                 </div>
-                <div className="absolute -top-6 -left-10 w-[250px] h-[180px] bg-gray-700/25 "></div>
+                <div className="absolute -top-6 left-0 w-[250px] h-[180px] bg-gray-700/25 "></div>
               </div>
             </div>
             {/* Middle Hero Section */}
@@ -94,7 +94,7 @@ const Hero = () => {
                     Voluptatem quo laborum expedita nisi cumque?
                   </p>
                 </div>
-                <div className="absolute -top-6 -right-10 w-[250px] h-[180px] bg-gray-950 opacity-50 "></div>
+                <div className="absolute -top-6 right-0 w-[250px] h-[180px] bg-gray-950 opacity-50 "></div>
               </div>
             </div>
           </div>
