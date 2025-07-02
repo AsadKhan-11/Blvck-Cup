@@ -15,7 +15,7 @@ const Hero = () => {
   const [sidebar, setSidebar] = useState(false);
 
   return (
-    <main style={bgImage} className="">
+    <main style={bgImage} className="z-50">
       <section className="relative min-h-[750px] w-full ">
         <div className="container">
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
