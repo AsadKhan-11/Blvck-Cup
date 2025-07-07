@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 .container {
-  padding: 1rem;
-  margin: 0 auto;
-  
+  @apply p-4 mx-auto;
 }
 
 .primary {
@@ -39,4 +37,12 @@
 }
 .icons-container:hover {
   scale: 1.2;
+}
+
+.input-style {
+  @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+}
+
+.primary-btn {
+  @apply bg-[#f19509] px-4 py-2 text-white rounded-md duration-200 hover:bg-[#e86f00];
 }

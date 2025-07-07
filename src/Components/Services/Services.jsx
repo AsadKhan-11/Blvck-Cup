@@ -40,7 +40,7 @@ const Services = () => {
       opacity: 1,
       transition: {
         delay: 0.6,
-        staggerChildren: 0.5,
+        staggerChildren: 0.7,
       },
     },
   };
@@ -49,7 +49,7 @@ const Services = () => {
       <div className="text-center max-w-lg mx-auto space-y-2">
         <motion.h1
           className="text-3xl font-bold text-[#272c35]"
-          initial={{ opacity: 0, y: -100 }}
+          initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             delay: 0.5,
