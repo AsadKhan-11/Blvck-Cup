@@ -14,7 +14,7 @@ const WhereToBuy = () => {
             transition={{
               delay: 0.2,
               type: "spring",
-              dampness: 10,
+              damping: 10,
               stiffness: 100,
             }}
           >
@@ -27,7 +27,7 @@ const WhereToBuy = () => {
             transition={{
               delay: 0.4,
               type: "spring",
-              dampness: 10,
+              damping: 10,
               stiffness: 100,
             }}
           >
@@ -49,7 +49,7 @@ const WhereToBuy = () => {
             transition={{
               delay: 0.6,
               type: "spring",
-              dampness: 10,
+              damping: 10,
               stiffness: 100,
             }}
           >
@@ -71,7 +71,7 @@ const WhereToBuy = () => {
             transition={{
               delay: 0.6,
               type: "spring",
-              dampness: 10,
+              damping: 10,
               stiffness: 100,
             }}
           >
@@ -89,7 +89,7 @@ const WhereToBuy = () => {
             transition={{
               delay: 1,
               type: "spring",
-              dampness: 10,
+              damping: 10,
               stiffness: 100,
             }}
           />

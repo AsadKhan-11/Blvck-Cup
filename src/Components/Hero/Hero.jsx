@@ -29,7 +29,7 @@ const Hero = () => {
                 transition={{
                   delay: 1.2,
                   type: "spring",
-                  dampness: 10,
+                  damping: 10,
                   stiffness: 100,
                 }}
               >
@@ -58,7 +58,7 @@ const Hero = () => {
                 transition={{
                   delay: 0.4,
                   type: "spring",
-                  dampness: 10,
+                  damping: 10,
                   stiffness: 100,
                 }}
               />
@@ -70,7 +70,7 @@ const Hero = () => {
                 transition={{
                   delay: 0.4,
                   type: "spring",
-                  dampness: 10,
+                  damping: 10,
                   stiffness: 100,
                 }}
               ></motion.div>

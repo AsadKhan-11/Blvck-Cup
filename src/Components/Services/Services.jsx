@@ -54,7 +54,7 @@ const Services = () => {
           transition={{
             delay: 0.5,
             type: "spring",
-            dampness: 10,
+            damping: 10,
             stiffness: 100,
           }}
         >
@@ -69,7 +69,7 @@ const Services = () => {
           transition={{
             delay: 0.8,
             type: "spring",
-            dampness: 10,
+            damping: 10,
             stiffness: 100,
           }}
         >
