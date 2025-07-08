@@ -22,7 +22,7 @@ const Services = () => {
   ]);
 
   const cardVariants = {
-    hidden: { opacity: 0, y: -20 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
@@ -39,7 +39,7 @@ const Services = () => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.6,
+        delay: 0.2,
         staggerChildren: 0.7,
       },
     },
@@ -67,7 +67,7 @@ const Services = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{
-            delay: 1.2,
+            delay: 0.8,
             type: "spring",
             dampness: 10,
             stiffness: 100,

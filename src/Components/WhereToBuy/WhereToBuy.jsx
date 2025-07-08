@@ -80,10 +80,18 @@ const WhereToBuy = () => {
         </div>
         {/* World map section  */}
         <div className="col-span-2">
-          <img
+          <motion.img
             src={worldMap}
             alt="Map image"
             className="w-full sm:w-[500px] mx-auto"
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{
+              delay: 1,
+              type: "spring",
+              dampness: 10,
+              stiffness: 100,
+            }}
           />
         </div>
       </div>
