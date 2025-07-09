@@ -6,6 +6,7 @@ import Hero from "./Components/Hero/Hero";
 import Services from "./Components/Services/Services";
 import WhereToBuy from "./Components/WhereToBuy/WhereToBuy";
 import AppBanner from "./Components/AppBanner/AppBanner";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <WhereToBuy />
       <AppBanner />
+      <Footer />
     </div>
   );
 }
