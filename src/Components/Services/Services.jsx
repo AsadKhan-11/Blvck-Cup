@@ -84,7 +84,7 @@ const Services = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ amount: 0.8 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         {services.map((service, index) => (
           <motion.div
