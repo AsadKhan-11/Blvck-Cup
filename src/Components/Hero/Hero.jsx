@@ -101,7 +101,7 @@ const Hero = () => {
             <motion.div
               className="absolute top-0 right-0 h-full w-36 bg-gradient-to-b from-[#f19509]/80 to-[#e86f00]/80 backdrop-blur-sm z-10"
               initial={{ x: "100%" }}
-              whileInView={{ x: 0 }}
+              animate={{ x: 0 }}
             >
               <div className="w-full h-full flex items-center justify-center">
                 <div className="flex flex-col gap-5 items-center justify-center">

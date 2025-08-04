@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, stagger } from "framer-motion";
 import coffee1 from "../../assets/coffee1.png";
+import coffee2 from "../../assets/coffee2.png";
 import coffee3 from "../../assets/coffee3.png";
 const Services = () => {
   const [services, setServices] = useState([
@@ -10,13 +11,13 @@ const Services = () => {
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
     {
-      img: coffee3,
-      title: "Hot Chocolate",
+      img: coffee2,
+      title: "Cold Coffee",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
     {
-      img: coffee1,
-      title: "Cold Coffee",
+      img: coffee3,
+      title: "Hot Chocolate",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
   ]);
@@ -45,7 +46,7 @@ const Services = () => {
     },
   };
   return (
-    <div className="container my-16 space-y-4">
+    <div className="container mt-16 mb-8 space-y-4">
       <div className="text-center max-w-lg mx-auto space-y-2">
         <motion.h1
           className="text-3xl font-bold text-[#272c35]"
@@ -92,11 +93,13 @@ const Services = () => {
             className="text-center p-4 space-y-6"
             variants={cardVariants}
           >
-            <img
-              src={service.img}
-              alt="Coffee Image"
-              className="drop-shadow-2xl max-w-[200px] mx-auto hover:scale-110 duration-300 cursor-pointer"
-            />
+            <div className="max-w-[200px] h-[200px] mx-auto">
+              <img
+                src={service.img}
+                alt="Coffee Image"
+                className="drop-shadow-2xl w-full h-full object-cover  hover:scale-110 duration-300 cursor-pointer"
+              />
+            </div>
             <div className="space-y-2">
               <h1 className="text-2xl font-bold text-[#f19509]">
                 {service.title}

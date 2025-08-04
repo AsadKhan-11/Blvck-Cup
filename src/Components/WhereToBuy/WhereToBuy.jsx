@@ -3,7 +3,7 @@ import worldMap from "../../assets/world-map.png";
 import { delay, motion } from "framer-motion";
 const WhereToBuy = () => {
   return (
-    <div className="container my-36">
+    <div className="container mb-36 mt-16">
       <div className="grid grid-cols-1 sm:grid-cols-3 place-items-center gap-8">
         {/* Form section */}
         <div className="space-y-8">
