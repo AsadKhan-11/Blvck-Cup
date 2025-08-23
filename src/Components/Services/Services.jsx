@@ -58,6 +58,7 @@ const Services = () => {
             damping: 10,
             stiffness: 100,
           }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           {" "}
           Fresh and
@@ -67,6 +68,7 @@ const Services = () => {
           className="text-sm opacity-50"
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{
             delay: 0.8,
             type: "spring",

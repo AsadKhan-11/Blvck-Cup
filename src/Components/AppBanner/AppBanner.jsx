@@ -25,6 +25,7 @@ const AppBanner = () => {
               className="text-2xl text-center font-semibold sm:text-4xl"
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{
                 delay: 0.3,
                 type: "spring",
@@ -38,6 +39,7 @@ const AppBanner = () => {
               className="text-center sm:px-20"
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{
                 delay: 0.3,
                 type: "spring",
@@ -59,6 +61,7 @@ const AppBanner = () => {
                   alt="app store logo"
                   initial={{ opacity: 0, y: 100 }}
                   whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.5 }}
                   transition={{
                     delay: 0.4,
                     type: "spring",
@@ -75,6 +78,7 @@ const AppBanner = () => {
                   src={playStore}
                   alt="play store logo"
                   initial={{ opacity: 0, y: 100 }}
+                  viewport={{ once: true, amount: 0.5 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{
                     delay: 0.5,

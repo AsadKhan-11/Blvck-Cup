@@ -11,6 +11,7 @@ const WhereToBuy = () => {
             className="text-4xl font-bold font-serif text-[#1a1f25]"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               delay: 0.2,
               type: "spring",
@@ -23,6 +24,7 @@ const WhereToBuy = () => {
           <motion.div
             className="flex items-center gap-4"
             initial={{ opacity: 0, y: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
               delay: 0.4,
@@ -46,6 +48,7 @@ const WhereToBuy = () => {
             className="flex items-center gap-4"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               delay: 0.6,
               type: "spring",
@@ -66,6 +69,7 @@ const WhereToBuy = () => {
           </motion.div>
           <motion.button
             className="primary-btn w-full cursor-pointer"
+            viewport={{ once: true, amount: 0.5 }}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -92,6 +96,7 @@ const WhereToBuy = () => {
               damping: 10,
               stiffness: 100,
             }}
+            viewport={{ once: true, amount: 0.5 }}
           />
         </div>
       </div>
